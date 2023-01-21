@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: lighter;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+
+  text-decoration: none;
+  margin: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: large;
+  font-weight: bold;
+}
+
+.p1Btn {
+  background: rgb(153, 86, 219);
+  color: #fff;
+}
+
+.p1Btn:hover {
+  background: rgb(131, 7, 255);
+  color: #fff;
+}
+
+.p1Btn:active {
+  background: #fff;
+  color: rgb(131, 7, 255);
+}
+
+.p2Btn {
+  background: rgb(252, 155, 37);
+  color: #fff;
+}
+
+.p2Btn:hover {
+  background: rgb(255, 128, 0);
+  color: #fff;
+}
+
+.p2Btn:active {
+  background: #fff;
+  color: rgb(255, 128, 0);
+}
+
+.resetBtn {
+  background: rgb(212, 86, 164);
+  color: #fff;
+}
+
+.resetBtn:hover {
+  background: rgb(212, 0, 88);
+  color: #fff;
+}
+
+.resetBtn:active {
+  background: #fff;
+  color: rgb(212, 0, 88);
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: block;
+}
+
+p label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p select {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+p {
+  margin: 10px 0;
+}
+
+p select:focus {
+  outline: none;
+  background-color: rgb(245, 232, 232);
+}
+
+p select:hover {
+  background-color: rgb(245, 232, 232);
+}
+
+p select option {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card {
+  border: 3px solid green;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  text-align: center;
+}
+
+.winner {
+  font-weight: bold;
+  margin: 20px 0;
+  color: green;
+}
+
+.loser {
+  font-weight: bold;
+  margin: 20px 0;
+  color: red;
+}
